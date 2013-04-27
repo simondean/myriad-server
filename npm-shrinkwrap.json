@@ -12,6 +12,10 @@
         }
       }
     },
+    "async": {
+      "version": "0.2.7",
+      "from": "async@"
+    },
     "cucumber": {
       "version": "0.3.0",
       "from": "cucumber@~0.3.0",
