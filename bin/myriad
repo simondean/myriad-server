@@ -11,8 +11,8 @@ function exit(code) {
 };
 
 var optimist = Optimist
-  .usage('Usage: $0 [options]')
-    .options('h', {
+  .usage('Usage: $0 [options] bin [args]')
+  .options('h', {
     alias: 'help',
     describe: 'Displays this help message'
   });
