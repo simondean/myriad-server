@@ -1,0 +1,42 @@
+{
+  "name": "myriad",
+  "description": "node.js app for scaling node.js tasks across multiple machines",
+  "keywords": [
+    "grid",
+    "parallel",
+    "scale"
+  ],
+  "version": "0.1.0",
+  "homepage": "http://github.com/simondean/myriad",
+  "author": "Simon Dean <simon@simondean.org> (http://www.simondean.org)",
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/simondean/myriad.git"
+  },
+  "bugs": {
+    "url": "http://github.com/simondean/myriad/issues"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib/myriad",
+  "engines": {
+    "node": ">=0.6"
+  },
+  "dependencies": {
+    "optimist": "~0.4.0"
+  },
+  "devDependencies": {
+    "cucumber": "~0.3.0"
+  },
+  "bin": {
+    "myriad": "./bin/myriad"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/simondean/myriad/LICENSE"
+    }
+  ]
+}
