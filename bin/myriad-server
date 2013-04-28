@@ -3,7 +3,7 @@
 'use strict';
 
 var Optimist = require('optimist');
-var Myriad = require('../lib/myriad');
+var Myriad = require('../lib/myriad-server');
 
 function exit(code) {
   process.stdout.once('drain', function () { process.exit(code); });

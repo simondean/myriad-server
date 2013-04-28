@@ -1,5 +1,5 @@
 {
-  "name": "myriad",
+  "name": "myriad-server",
   "description": "node.js app for scaling node.js tasks across multiple machines",
   "keywords": [
     "grid",
@@ -7,20 +7,20 @@
     "scale"
   ],
   "version": "0.1.0",
-  "homepage": "http://github.com/simondean/myriad",
+  "homepage": "http://github.com/simondean/myriad-server",
   "author": "Simon Dean <simon@simondean.org> (http://www.simondean.org)",
   "contributors": [],
   "repository": {
     "type": "git",
-    "url": "git://github.com/simondean/myriad.git"
+    "url": "git://github.com/simondean/myriad-server.git"
   },
   "bugs": {
-    "url": "http://github.com/simondean/myriad/issues"
+    "url": "http://github.com/simondean/myriad-server/issues"
   },
   "directories": {
     "lib": "./lib"
   },
-  "main": "./lib/myriad",
+  "main": "./lib/myriad-server",
   "engines": {
     "node": ">=0.6"
   },
@@ -32,12 +32,12 @@
     "cucumber": "~0.3.0"
   },
   "bin": {
-    "myriad": "./bin/myriad"
+    "myriad-server": "./bin/myriad-server"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://github.com/simondean/myriad/LICENSE"
+      "url": "http://github.com/simondean/myriad-server/LICENSE"
     }
   ]
 }

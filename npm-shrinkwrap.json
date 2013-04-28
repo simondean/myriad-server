@@ -1,5 +1,5 @@
 {
-  "name": "myriad",
+  "name": "myriad-server",
   "version": "0.1.0",
   "dependencies": {
     "optimist": {
