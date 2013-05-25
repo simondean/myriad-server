@@ -1,0 +1,9 @@
+{
+  "name": "myriad-server-examples",
+  "description": "packages required to run the examples",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "http-proxy": "0.10.2"
+  }
+}

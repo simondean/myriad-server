@@ -20,7 +20,7 @@
   "directories": {
     "lib": "./lib"
   },
-  "main": "./lib/myriad-server",
+  "main": "./lib/myriad_server",
   "engines": {
     "node": ">=0.6"
   },

@@ -3,7 +3,7 @@
 'use strict';
 
 var Optimist = require('optimist');
-var MyriadServer = require('../lib/myriad-server');
+var MyriadServer = require('../lib/myriad_server');
 var Winston = require('winston');
 
 Winston.cli();
