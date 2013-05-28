@@ -9,8 +9,16 @@ var Winston = require('winston');
 Winston.cli();
 
 function exit(code) {
-  process.stdout.once('drain', function () { process.exit(code); });
-  process.stdout.write('');
+  Debug("Exiting with code " + code);
+
+  if (process.stdout.write("")) {
+    process.exit(code);
+  }
+  else {
+    process.stdout.on('drain', function() {
+      process.exit(code);
+    });
+  }
 };
 
 var optimist = Optimist
