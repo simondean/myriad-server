@@ -32,7 +32,7 @@
     "winston": "~0.7.1",
     "debug": "~0.7.2",
     "glob": "~3.2.1",
-    "win-spawn": "~1.1.1",
+    "win-spawn": "~1.1.2",
     "websocket-driver": "~0.2.1"
   },
   "devDependencies": {},
