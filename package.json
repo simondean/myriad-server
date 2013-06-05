@@ -33,7 +33,9 @@
     "debug": "~0.7.2",
     "glob": "~3.2.1",
     "win-spawn": "~1.1.2",
-    "websocket-driver": "~0.2.1"
+    "websocket-driver": "~0.2.1",
+    "tar": "~0.1.17",
+    "wrench": "~1.5.1"
   },
   "devDependencies": {},
   "bin": {
