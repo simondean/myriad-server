@@ -39,5 +39,7 @@ if (argv.help) {
   exit(0);
 }
 else {
-  MyriadServer({ port: argv.port });
+  MyriadServer({ port: argv.port }, function(info) {
+    Winston.info('Listening on port ' + info.port);
+  };
 }
