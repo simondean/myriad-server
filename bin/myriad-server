@@ -11,14 +11,9 @@ Winston.cli();
 function exit(code) {
   Debug("Exiting with code " + code);
 
-  if (process.stdout.write("")) {
+  process.on('exit', function() {
     process.exit(code);
-  }
-  else {
-    process.stdout.on('drain', function() {
-      process.exit(code);
-    });
-  }
+  });
 };
 
 var optimist = Optimist
