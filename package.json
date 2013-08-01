@@ -30,7 +30,7 @@
     "winston": "~0.7.1",
     "debug": "~0.7.2",
     "glob": "~3.2.1",
-    "win-spawn": "~1.1.2",
+    "win-spawn": "~2.0.0",
     "tar": "~0.1.17",
     "wrench": "~1.5.1",
     "faye-websocket": "~0.6.0"
